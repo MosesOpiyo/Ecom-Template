@@ -95,7 +95,7 @@ p{
     height:200px;
     margin: 20px;
     background-image: url(../../../../public/assets/img/pexels-andrea-piacquadio-874158.jpg);
-    background-position: right;
+     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
