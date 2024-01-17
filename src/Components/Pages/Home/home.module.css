@@ -95,17 +95,12 @@ p{
     height:200px;
     margin: 20px;
     background-image: url(../../../../public/assets/img/pexels-andrea-piacquadio-874158.jpg);
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    @media (min-width: 600px) {
-        background-size: cover;
-        height: 300px;
-        width: 30%;
-         
-    }
 }
+
 .Card2{
     width: 90%;
     height:200px;
@@ -115,12 +110,6 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    @media (min-width: 600px) {
-        background-size: cover;
-        height: 300px;
-        width: 30%;
-    
-    }
 }
 .Card3{
     width: 90%;
@@ -131,11 +120,15 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    @media (min-width: 600px) {
+}
+@media (min-width: 600px) {
+    .Card .Card2 .Card3{
+        margin-top: 5pc;
         background-size: cover;
         height: 300px;
-        width: 30%; 
+        width: 30%;
     }
+     
 }
 .button{
     width: 100%;
